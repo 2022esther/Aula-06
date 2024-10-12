@@ -16,7 +16,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       preco: {
-        type: Sequelize.NUMBER
+        type: Sequelize.FLOAT
       },
       createdAt: {
         allowNull: false,
